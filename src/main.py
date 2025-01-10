@@ -273,8 +273,8 @@ class ScraperRunner:
                         scraper.save_products()
                         # Подготовка имен файлов
                         category = url.split('/')[-2]
-                        table_filename = f"products_table_{category}.csv"
-                        excel_filename = f"products_table_{category}.xlsx"
+                        table_filename = f"data/products_table_{category}.csv"
+                        excel_filename = f"data/products_table_{category}.xlsx"
 
                         # Сохранение данных в таблицу
                         self.file_handler.save_to_table(scraper.products, table_filename)
