@@ -1,0 +1,38 @@
+
+# Компилированные файлы Python
+__pycache__/
+*.py[cod]
+
+# Среда разработки
+.idea/
+.vscode/
+*.iml
+
+# Кэш и временные файлы
+ruff_cache/
+tempCodeRunnerFile.py
+
+# Виртуальная среда
+.venv/
+ENV/
+env/
+
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+
+
+# Логи и временные файлы
+*.log
+*.tmp
+*.bak
+
+# Конфиденциальные файлы
+*.env
+*.key
+*.pem

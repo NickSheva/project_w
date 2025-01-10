@@ -1,0 +1,23 @@
+[project]
+name = "project-w"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13.0"
+dependencies = [
+    "asyncio>=3.4.3",
+    "beautifulsoup4>=4.12.3",
+    "bs4>=0.0.2",
+    "fake-useragent>=2.0.3",
+    "openpyxl>=3.1.5",
+    "pandas>=2.2.3",
+    "playwright>=1.49.1",
+    "plotly>=5.24.1",
+    "pytest-playwright>=0.6.2",
+    "pyxrate>=0.2",
+    "requests>=2.32.3",
+    "ruff>=0.8.4",
+    "urllib3>=2.3.0",
+    "visualize>=0.5.1",
+    "xlrd>=2.0.1",
+]
